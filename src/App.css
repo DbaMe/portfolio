@@ -70,7 +70,7 @@ a:hover {
 
 img {
   width: 100%;
-  height: auto;
+  height: 17rem;
 }
 
 button {
@@ -571,6 +571,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 5rem;
 }
 .newsletter-bx {
   background: #ffffff;
@@ -634,6 +635,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .footer img {
   width: 26%;
+  height: 5rem;
 }
 .footer p {
   font-weight: 400;
@@ -643,10 +645,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-
- .logos {
+.logos {
   font-size: 2rem;
   font-family: 'Great Vibes', cursive;
   color: #fff;
 } 
-
