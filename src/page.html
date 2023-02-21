@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Password Reset</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+      
+      body {
+        width: 100% !important;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+        font-family: Arial, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td {
+        padding: 10px;
+      }
+      .container {
+        /* width: 100%; */
+        max-width: 700px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+      }
+
+      .load {
+        text-align: center;
+      }
+      .header {
+        background-color: #36d69e;
+        color: #fff;
+        padding: 10px;
+        height: 60px;
+      }
+      .content {
+        padding: 30px;
+        margin: 20px
+      }
+      .button {
+        width: 8rem;
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+        background-color: #36d69e;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 20px;
+        font-weight: 700;
+      }
+      .footer {
+        width: 100%;
+        height: 3rem;
+        background-color: #36d69e;
+        padding: 1px;
+        margin-right:-30px;
+        text-align: center;
+        font-size: 11px;
+        color: #666;
+      }
+      
+     #menu{
+    list-style: none;
+    
+}
+#menu li{
+    display: inline;
+    padding: 0px;
+    border-left: solid 0.1px white;
+
+}
+#menu li:first-child{
+    border-left: none;
+
+}
+
+#menu li:third-child{
+    border-left: none;
+
+
+}
+          
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+     &nbsp &nbsp
+        <a target="_blank" style="text-decoration: none; color: #425d74" href=""
+          ><img
+            alt="logo"
+            src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/2dfc754f-6528-9c91-4298-25363ac2b4ac.png"
+            width="132"
+            height="40"
+            style="max-width: 112px; "
+        /></a>
+        <h1
+          style="
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 12px;
+            text-align: right;
+            padding-right: 15px;
+            padding-top: 5px;
+            color: #ffffff;
+            line-height: 24px;
+            font-style: italic;
+            text-transform: uppercase;
+            margin-top: -35px;
+            font-weight: 700;
+          "
+        >
+          reset password
+        </h1> 
+      </div>
+      <div class="content">
+        <p>Hello {{UserName}},</p>
+        <p>
+          we have received a request to reset your Movacar password. To reset
+          your password, please click on the following link:
+        </p>
+        <a class="button" href="{{reset_link}}">Confirm</a>
+        <!-- <a class="button" href="https://www.movacar.de/" target="_blank">Confirm</a> -->
+      </div>
+      <div>
+        <p style="margin-left: 2.8rem; height: 30%">
+          Best regards, <br />
+          your Movacar team
+        </p>
+      </div>
+
+      <div style="margin-top: 80px">
+        <p class="load">
+          Even more convenient on the go with our free app Download
+        </p>
+        <p class="load">now and get started!</p>
+      </div>
+
+      <div class="load" style="margin-top: 40px">
+        <a
+          target="_blank"
+          style="text-decoration: none; color: #333333"
+          href="https://www.movacar.de/app"
+          ><img
+            alt="logo"
+            src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/acc1c22f-0a55-e1de-8532-c01a6421be9a.png"
+            width="80"
+            height="24"
+            style="max-width: 80px"
+        /></a>
+        <a
+          target="_blank"
+          style="text-decoration: none; color: #333333"
+          href="https://www.movacar.de/app"
+          ><img
+            alt="logo"
+            src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/d236a5cb-bd00-33c2-f301-af98750a0f54.png"
+            width="80"
+            height="24"
+            style="max-width: 80px"
+        /></a>
+      </div>
+
+      <div class="footer" style="margin-top: 100px " >
+        <div style="display: flex; text-align: left; ">
+         <ul id="menu" >
+         <li class="list1">
+    
+         <a
+            target="_blank"
+            href="https://www.movacar.de/impressum" style="color: #fff; text-decoration: none;"
+            >Imprint
+          </a></li>
+
+          
+           <li><a
+            target="_blank"
+     
+            href="https://www.movacar.de/impressum" style="color: #fff; text-decoration: none"
+            >Terms and Conditions</a
+          ></li>
+          <li>
+           <a
+            target="_blank"
+
+            href="https://www.movacar.de/hilfe" style="color: #fff; text-decoration: none "
+            >Help</a
+          >
+          </li>
+         </ul>  
+        </div>
+        
+        <div style="display: flex; justify-content: right; margin-top: -28px; padding-Right: 40px  ">
+          <a
+            target="_blank"
+            style="text-decoration: none; color: #ffffff"
+            href="https://twitter.com/Movacar2 "
+            ><img
+              src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/0dbd3c50-a1d4-b291-0286-b109819bf07e.png"
+              style="
+                max-width: 15px;
+                border: none;
+                right: 50px;
+
+              "
+              alt="twitter"
+            />
+          </a> 
+          &nbsp &nbsp
+
+          <a
+            target="_blank"
+            style="text-decoration: none; color: #ffffff"
+            href="https://www.facebook.com/movacarDE/ "
+            ><img
+              src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/67bbe6b8-4ed7-d308-5cb9-2658fde408ee.png"
+              style="
+                max-width: 15px;
+                border: none;
+                right: 50px;
+
+              "
+              alt="twitter"
+            />
+          </a> 
+          &nbsp &nbsp
+          <a
+            target="_blank"
+            style="text-decoration: none; color: #ffffff"
+            href="https://www.instagram.com/movacarde/ "
+            ><img
+              src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/5e6dbf76-1dd9-8a06-2d50-cad69ec06dac.png"
+              style="
+                max-width: 15px;
+                border: none;
+                right: 50px;
+              "
+              alt="twitter"
+            />
+          </a>
+        </div>
+
+        <div style="display: flex; text-align: left margin-bottom -20px">
+           &nbsp &nbsp <a
+            target="_blank"
+            style="text-decoration: none; color: #ffffff; padding-left: 30px" 
+            href="https://www.movacar.de/"
+            >Register</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
